@@ -134,7 +134,7 @@ def enroll():
     printText("Finger Added Successfully!", 2)
 
 if __name__ == "__main__":
-    sensor.empty_library()
+    #sensor.empty_library()
     while True:
         sensor.count_templates()
         while(sensor.template_count == 0):
